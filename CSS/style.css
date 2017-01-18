@@ -1,0 +1,71 @@
+* {
+  box-sizing: border-box;
+
+
+}
+
+header {
+  background-color: black;
+  max-width: 100%;
+}
+
+img {
+  display: inline-block;
+  max-width: 40%;
+}
+
+ li {
+  color: white;
+  display: inline;
+  padding: 10% 4% 0 0;
+}
+.split-screen {
+  max-width: 45%;
+}
+.split-screen a {
+  text-decoration: none;
+  background-color: green;
+  padding: 1%;
+}
+
+
+
+
+.mfah {
+  max-width: 100%;
+}
+.arch {
+  max-width: 80%;
+}
+
+.future {
+  max-width: 80%;
+}
+
+.alfred {
+  max-width: 80%;
+}
+.right-side {
+  max-width: 20%;
+  background-color: orange;
+  float: right;
+}
+
+.side-text1 {
+  color: white;
+  display: inline-block;
+  margin-right: 20%;
+  border-bottom: 1px grey dotted;
+  font-size: 4%;
+}
+.side-text2 {
+  font-size: 4%;
+  color: white;
+  display: inline-block;
+  border-bottom: 1px grey dotted;
+}
+.side-text3 {
+  color: white;
+  display: inline-block;
+  font-size: 4%;
+}
