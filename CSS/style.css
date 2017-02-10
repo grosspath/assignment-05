@@ -1,11 +1,15 @@
 * {
   box-sizing: border-box;
+}
 
-
+#app-container {
+  max-width: 1280px;
+  margin: 0 auto;
+  font-family: "Helvetica Neue";
 }
 
 header {
-  background-color: black;
+  background-color: #323533;
   max-width: 100%;
 }
 
@@ -20,52 +24,198 @@ img {
   padding: 10% 4% 0 0;
 }
 .split-screen {
-  max-width: 45%;
+  max-width: 600px;
+  margin-top: 30px;;
 }
-.split-screen a {
+.yellow {
   text-decoration: none;
-  background-color: green;
-  padding: 1%;
+  background-color: #fcfccf;
+  padding: 6px;
+}
+.lt-blue {
+  text-decoration: none;
+  background-color: #cffcf7;
+  padding: 6px;
 }
 
+.info {
+  font-size: 14px;
+  width: 800px;
+}
 
-
+.title {
+  margin-top: 40px;
+  font-size: 40px;
+  font-weight: 500;
+}
+.column-container {
+  width: 800px;
+}
 
 .mfah {
-  max-width: 100%;
-}
-.arch {
-  max-width: 80%;
+  display: inline-block;
 }
 
-.future {
-  max-width: 80%;
-}
-
-.alfred {
-  max-width: 80%;
-}
 .right-side {
-  max-width: 20%;
-  background-color: orange;
-  float: right;
+  width: 400px;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.pic1, .side-text1 {
+  display: inline-block;
+}
+
+.pic2, .side-text2 {
+  display: inline-block;
+}
+
+.pic3, .side-text3 {
+  display: inline-block;
 }
 
 .side-text1 {
-  color: white;
-  display: inline-block;
-  margin-right: 20%;
+  color: black;
+  margin: 0 180px 0 6px;
   border-bottom: 1px grey dotted;
-  font-size: 4%;
+%;
+  vertical-align: top;
 }
 .side-text2 {
-  font-size: 4%;
-  color: white;
-  display: inline-block;
+
+  color: blue;
+  margin: 0 180px 0 6px;
   border-bottom: 1px grey dotted;
 }
 .side-text3 {
-  color: white;
+  margin-left: 6px;
+
+}
+
+.talk {
+  color: lightgrey;
+  font-weight: bolder;
+  font-size: 12px;
+}
+
+.art-speak {
+  color: blue;
+  font-size: 14px;
+  width: 120px;
+  margin: 0;
+}
+
+.bottom {
+  color: darkgrey;
+  font-size: 10px;
+}
+
+.footer-text p {
   display: inline-block;
-  font-size: 4%;
+  font-size: 10px;
+  width: 300px;
+}
+
+.alfred {
+border-bottom: 1px solid lightgrey;
+width: 1200px;
+display: inline-block;
+margin-top: 14px;
+}
+
+.dec-width {
+  display: inline-block;
+
+}
+
+.close {
+  display: inline-block;
+}
+
+.last-sec {
+  display: inline-block;
+  width: 500px;
+  vertical-align: top;
+  font-size: 14px;
+}
+ .fa {
+   color: red;
+   font-size: 12px;
+   padding: 6px;
+   margin: auto;
+}
+
+.future a {
+  vertical-align: top;
+  font-size: 14px;
+  color: blue;
+}
+
+.future img {
+  margin-left: 200px;
+}
+
+.view {
+margin: 10px 0 0 160px;
+color: blue;
+font-size: 12px;
+}
+
+.position {
+  background-color: #194c9e;
+  font-size: 12px;
+  width: 220px;
+  height: 90px;
+  position: fixed;
+  bottom: 40px;
+  right: 100px;
+  padding: 2px;
+  color: white;
+
+}
+
+.position button {
+  color: black;
+  font-size: 2px;
+  position: fixed;
+  right: 110px;
+  bottom: 45px;
+  height: 23px;
+  width: 22px;
+}
+
+.position i {
+  color: black;
+  font-size: 10px;
+  padding: 0 2px 0 0;
+  display: inline-block;
+}
+
+.search-bar  {
+  width: 178px;
+  height: 22px;
+  background-color: white;
+  color: grey;
+  display: inline-block;
+  position: fixed;
+  bottom: 34px;
+  right: 130px;
+
+}
+
+.words {
+  line-height: 20px;
+  margin: 10px 0 -8px 12px;
+}
+
+.position .fa-envelope {
+  color: red;
+  padding: 0 4px;
+
+}
+
+.position .fa-ticket {
+  color: red;
+  padding: 0 4px;
+
 }
